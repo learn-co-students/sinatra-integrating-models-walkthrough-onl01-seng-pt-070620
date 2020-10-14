@@ -44,3 +44,5 @@ class TextAnalyzer
       biggest
     end
   end
+
+  my_text = TextAnalyzer.new("Some garbage text")
