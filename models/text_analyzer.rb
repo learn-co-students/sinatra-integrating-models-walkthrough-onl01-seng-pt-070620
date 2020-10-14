@@ -1,5 +1,5 @@
 # Your TextAnalyzer model code will go here.
-require 'pry'
+
 class TextAnalyzer
     attr_reader :text
    
@@ -21,7 +21,7 @@ class TextAnalyzer
     end
    
     def most_used_letter
-        binding.pry
+
       s1 = text.gsub(/[^a-z]/, '') # gets rid of spaces
       arr = s1.split('')
 
